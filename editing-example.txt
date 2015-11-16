@@ -18,4 +18,6 @@ I should be able to just to a "commit" to put this updated txt file on GitHub.
 
 Nope.  Even modified files must be added to the commit list.  Status will show what has been changed, then you can "add" or do a "commit -a" to automatically stage the changed files.
 
-"a" puts vi into Insert mode?
+"a" puts vi into Insert mode?  esc : to command mode?
+
+Can I change editor to pico (or something) for commit message?
