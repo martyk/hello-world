@@ -10,3 +10,12 @@ $ git add README.md
 $ git commit
 $# esc :wq to exit vi
 $ git push origin master
+
+If it was just an update of an existing file could I leave out the 
+"git add" command?  Looks like.  "add" seems to either stage an existing file for commit, or adds that to the main index prior to commit.
+
+I should be able to just to a "commit" to put this updated txt file on GitHub.
+
+Nope.  Even modified files must be added to the commit list.  Status will show what has been changed, then you can "add" or do a "commit -a" to automatically stage the changed files.
+
+"a" puts vi into Insert mode?
