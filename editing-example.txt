@@ -1,0 +1,12 @@
+Example of how I locally edited README.md and then put it back on GitHub
+
+$# sync with GitHub
+$ git checkout master
+$ git pull git@github.com:martyk/hello-world.git master
+$# do the edity bits
+$ git status
+$# add the edited files
+$ git add README.md
+$ git commit
+$# esc :wq to exit vi
+$ git push origin master
