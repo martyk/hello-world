@@ -29,4 +29,4 @@ Permission denied (publickey).  Looks like the old Octo key was deleted.
 
 Went to Personal Settings > SSH and GPG keys page on GitHub.  Clicked on New SSH Key and copied ~/.ssh/id_rsa.pub into the text box and hit Create Key with name Octo Public Key.  
 
-Now the pull works.
+Now the pull/commit works.
