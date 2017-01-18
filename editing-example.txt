@@ -21,3 +21,12 @@ Nope.  Even modified files must be added to the commit list.  Status will show w
 "a" puts vi into Insert mode?  esc : to command mode?
 
 Can I change editor to pico (or something) for commit message?
+
+1/17/17 17:00
+
+Seems git pull git@github.com:martyk/hello-world.git master fails with 
+Permission denied (publickey).  Looks like the old Octo key was deleted.
+
+Went to Personal Settings > SSH and GPG keys page on GitHub.  Clicked on New SSH Key and copied ~/.ssh/id_rsa.pub into the text box and hit Create Key with name Octo Public Key.  
+
+Now the pull works.
