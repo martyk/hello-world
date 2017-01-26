@@ -35,8 +35,9 @@ Now the pull/commit works.
 
 Did a 
 
-$ git config --global core.editor open 
+$ git config --global core.editor "open -e -W" 
 
 to change commit commenting editor to TextEdit 
 Tried Hybrid1:Applications:TextEdit.app, and various URLs, and 
-they did NOT work.
+they did NOT work.  -W made it wait until I closed ALL TextEdit windows.
+Hopefully -e will just do the one.
