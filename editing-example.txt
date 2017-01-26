@@ -50,3 +50,19 @@ continue problem"
 Gave up and went back to default "vi I guess" editor by issuing a 
 $ git config --global --unset-all core.editor 
 command
+
+Odd.  I had a typo in the commit message so I thought a 
+
+$ git commit --amend 
+
+would fix it right up.  Editing the message, made it correct, but when I did the 
+
+$  git push origin master
+To git@github.com:martyk/hello-world.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'git@github.com:martyk/hello-world.git'
+To prevent you from losing history, non-fast-forward updates were rejected
+Merge the remote changes (e.g. 'git pull') before pushing again.  See the
+'Note about fast-forwards' section of 'git push --help' for details.
+
+I got the above error message.  I did a pull and then the push worked.  Hrumph.
