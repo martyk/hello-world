@@ -46,3 +46,7 @@ How about /Applications/TextEdit.app/Contents/MacOS/TextEdit?
 
 Still has the "you have to close every instance of TextEdit to 
 continue problem"
+
+Gave up and went back to default "vi I guess" editor by issuing a 
+$ git config --global --unset-all core.editor 
+command
