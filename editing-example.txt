@@ -30,3 +30,13 @@ Permission denied (publickey).  Looks like the old Octo key was deleted.
 Went to Personal Settings > SSH and GPG keys page on GitHub.  Clicked on New SSH Key and copied ~/.ssh/id_rsa.pub into the text box and hit Create Key with name Octo Public Key.  
 
 Now the pull/commit works.
+
+1/26/17 13:20
+
+Did a 
+
+$ git config --global core.editor open 
+
+to change commit commenting editor to TextEdit 
+Tried Hybrid1:Applications:TextEdit.app, and various URLs, and 
+they did NOT work.
