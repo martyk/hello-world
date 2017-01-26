@@ -43,3 +43,6 @@ they did NOT work.  -W made it wait until I closed ALL TextEdit windows.
 Hopefully -e will just do the one.
 
 How about /Applications/TextEdit.app/Contents/MacOS/TextEdit?
+
+Still has the "you have to close every instance of TextEdit to 
+continue problem"
