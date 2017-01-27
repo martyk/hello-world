@@ -66,3 +66,13 @@ Merge the remote changes (e.g. 'git pull') before pushing again.  See the
 'Note about fast-forwards' section of 'git push --help' for details.
 
 I got the above error message.  I did a pull and then the push worked.  Hrumph.
+
+1/27/17 
+
+Continuing with the git-scm.com/book now on "branching".  
+$ git branch testing
+$ git checkout testing
+
+Edited this doc and did a commit.
+$ git commit -a -m "Updated editing-example.txt with branch commands"
+
