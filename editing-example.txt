@@ -76,3 +76,14 @@ $ git checkout testing
 Edited this doc and did a commit.
 $ git commit -a -m "Updated editing-example.txt with branch commands"
 
+After that, to merge it back, I did 
+
+$ git checkout master # to reset to master, where this file was the old one
+$ git merge testing  # to merge changes back into master
+$ git branch -d testing # to delete the branch 
+$ git push origin master # to push the changes to github
+
+then I added these comments (From "After that" to here) and did a 
+
+$ git commit -a -m "Added post branch comments"
+
