@@ -87,3 +87,11 @@ then I added these comments (From "After that" to here) and did a
 
 $ git commit -a -m "Added post branch comments"
 
+5/19/18 
+
+Installed GitHub Desktop (http://github.com/desktop/desktop) on Octo (which is a zip file that creates an .app file where ever you unzip it it seems).  While it is an interesting GUI to look at git stuff, I was hoping for something more comprehensive.  I mostly hoped it would fix the “using the git command from the shell” issue.  It does not.  Now, if I type a ‘git’ command I get a pop up that says install XCode and/or the command lines tools for XCode.
+
+Bleh.
+
+While I knew my github username and password I was stymied by GHD asking for the password to access id_rsa file for SSH access.  I never thought I had a passphrase on that file.  Seems I did, and still do.  Check the Stats file for the info.
+
